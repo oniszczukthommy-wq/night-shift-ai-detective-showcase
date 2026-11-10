@@ -1,0 +1,13 @@
+{
+  "name": "night-shift-detective",
+  "version": "0.8.0",
+  "private": true,
+  "description": "狐狸警官 AI 探案游戏及两套独立浏览器参考试玩",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node ai-detective-game/server.mjs",
+    "start:references": "node reference-playgrounds/server.mjs"
+  }
+}

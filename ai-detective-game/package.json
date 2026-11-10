@@ -1,0 +1,8 @@
+{
+  "name": "night-shift-detective",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}

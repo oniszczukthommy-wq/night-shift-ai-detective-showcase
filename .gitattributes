@@ -1,0 +1,10 @@
+# Preserve upstream Three.js bytes and intentional Markdown hard line breaks.
+ai-detective-game/public/vendor/** -text whitespace=-space-before-tab
+PRD.md whitespace=-trailing-space
+*.bin binary
+*.png binary
+*.jpg binary
+
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
